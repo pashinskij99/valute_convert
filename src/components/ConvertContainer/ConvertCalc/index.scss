@@ -1,0 +1,53 @@
+.convert-calc {
+	.select_wrapper {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		.select {
+			width: 35%;
+			.css-1s2u09g-control {
+				border-color: #00aba9;
+				color: #077371;
+			}
+		}
+	}
+	.switch_wrapper {
+		text-align: center;
+		button {
+			background: none;
+			outline: none;
+			border: none;
+			width: 60px;
+			background-color: #00aba9;
+			border-radius: 50%;
+			padding: 15px 15px 10px;
+			cursor: pointer;
+			&:hover img {
+				transform: rotate(180deg);
+			}			
+			img {
+				transform: rotate(0deg);
+				width: 100%;
+				transition: all 0.3s ease-in-out;
+			}
+		}
+	}
+	.input_wrapper {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		input {
+			width: 35%;
+			height: 55px;
+			min-height: 35%;
+			outline: none;
+			padding: 1% 2%;
+			border: 1px solid #00aba9;
+			border-radius: 5px;
+		}
+	}
+	.flex_direction_reverse {
+		flex-direction: row-reverse;
+	}
+	
+}
